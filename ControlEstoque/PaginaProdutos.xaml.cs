@@ -27,6 +27,7 @@ namespace ControlEstoque
         public PaginaProdutos()
         {
             this.InitializeComponent();
+
             _produtos = new ListaProdutos().GetProdutos().Where(p=>p.Preco >=40).ToList();
         }
     }
