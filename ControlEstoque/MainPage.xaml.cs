@@ -171,6 +171,11 @@ namespace ControlEstoque
             db.SaveChanges();
             CarregarListView();
         }
+
+        private void btnVerProdutos_Click(object sender, RoutedEventArgs e)
+        {
+           this.Frame.Navigate(typeof (PaginaProdutos));
+        }
     }
     
 }

@@ -108,10 +108,15 @@
       <DependentUpon>20151208040959_CriaNovoCampo.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\DadosContextoModelSnapshot.cs" />
+    <Compile Include="Models\Book.cs" />
+    <Compile Include="Models\ListaProdutos.cs" />
     <Compile Include="Models\DadosContexto.cs" />
     <Compile Include="Models\Pedido.cs" />
     <Compile Include="Models\Pessoa.cs" />
     <Compile Include="Models\Produto.cs" />
+    <Compile Include="PaginaProdutos.xaml.cs">
+      <DependentUpon>PaginaProdutos.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +143,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PaginaProdutos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

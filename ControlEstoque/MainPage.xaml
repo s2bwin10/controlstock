@@ -16,6 +16,7 @@
         <Button x:Name="btnExcluir" Content="Excluir" HorizontalAlignment="Left" Margin="258,182,0,0" VerticalAlignment="Top" Height="45" Width="92" Click="btnExcluir_Click"/>
         <ListView x:Name="lstTeste" HorizontalAlignment="Left" Height="384" Margin="17,246,0,0" VerticalAlignment="Top" Width="333" ItemClick="lstTeste_ItemClick" SelectionChanged="lstTeste_SelectionChanged" PointerPressed="lstTeste_PointerPressed" ChoosingItemContainer="lstTeste_ChoosingItemContainer"/>
         <Button x:Name="btnAlterar" Content="Atualizar" HorizontalAlignment="Left" Margin="127,182,0,0" VerticalAlignment="Top" Height="45" Width="93" Click="btnAlterar_Click"/>
+        <Button x:Name="btnVerProdutos" Content="Produtos" HorizontalAlignment="Left" Margin="17,43,0,0" VerticalAlignment="Top" Height="35" Width="85" Click="btnVerProdutos_Click"/>
 
     </Grid>
 </Page>
